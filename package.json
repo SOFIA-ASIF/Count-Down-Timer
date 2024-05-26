@@ -1,5 +1,5 @@
 {
-  "name": "count-down-timer",
+  "name": "sofia_count-down-timer",
   "version": "1.0.0",
   "description": "a countdown timer using date modules",
   "main": "index.js",
