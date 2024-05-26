@@ -1,5 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+#! /usr/bin/env node
 class CountdownTimer {
     endDate;
     intervalId;
@@ -34,6 +33,7 @@ class CountdownTimer {
     }
 }
 // Example usage
-const endDate = new Date("2024-05-25T04:24:03");
+const endDate = new Date("2024-12-31T23:59:59");
 const countdownTimer = new CountdownTimer(endDate);
 countdownTimer.start();
+export {};

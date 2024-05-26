@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 class CountdownTimer {
     private endDate: Date;
     private intervalId?: NodeJS.Timeout;
