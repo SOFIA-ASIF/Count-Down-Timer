@@ -1,7 +1,6 @@
 #! /usr/bin/env node
+"use strict";
 class CountdownTimer {
-    endDate;
-    intervalId;
     constructor(endDate) {
         this.endDate = endDate;
     }
@@ -36,4 +35,3 @@ class CountdownTimer {
 const endDate = new Date("2024-12-31T23:59:59");
 const countdownTimer = new CountdownTimer(endDate);
 countdownTimer.start();
-export {};
